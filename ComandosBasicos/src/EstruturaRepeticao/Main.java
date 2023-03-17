@@ -7,22 +7,22 @@ public class Main {
 
     public static void main(String[] args) {
 
-        //ESTRUTURAS DE REPETI��O
+        //ESTRUTURAS DE REPETICAO
         //======================================================================
         /*
-            Como voc� j� deve ter visto, estruturas de repeti��o servem para
-            fazer com que um trecho de c�digo deseja executado de forma repetida,
-            podendo essa repeti��o ter um n�mero conhecido ou n�o de vezes.
-            Em Java existem duas estruturas de repeti��o:
+            Como voce ja' deve ter visto, estruturas de repeticao servem para
+            fazer com que um trecho de co'digo deseja executado de forma repetida,
+            podendo essa repeticao ter um nu'mero conhecido ou nao de vezes.
+            Em Java existem duas estruturas de repeticao:
             
             1 - while (Correspondente ao "enquanto" no portugol)
             2 - for (Correspondente ao "para" no portugol)
         
-            Em ambas estruturas � preciso definir uma condi��o de parada para
-            garantir que n�o haja um loop infinito. Os oepradores poss�veis de
-            serem utilizados s�o os operadores relacionais e l�gicos
+            Em ambas estruturas e' preciso definir uma condicao de parada para
+            garantir que nao haja um loop infinito. Os oepradores possi'veis de
+            serem utilizados sao os operadores relacionais e lo'gicos
         
-            Os operadores relacionais existentes na linguagem s�o:
+            Os operadores relacionais existentes na linguagem sao:
             1 - Maior           (>) 
             2 - Maior ou igual  (>=)
             3 - Menor           (<)
@@ -30,30 +30,30 @@ public class Main {
             5 - Diferente       (!=)
             6 - Igual           (==)
         
-            Os operadores l�gicos existentes na linguagem s�o:
+            Os operadores lo'gicos existentes na linguagem sao:
             1 - Operador E      (&&)
             2 - Operador OU     (||)
-            3 - Operador N�O    (!)
+            3 - Operador NaO    (!)
         
-            Preced�ncia dos Operadores:
-            Ordem 	Tipo de Operador 	Preced�ncia
-            1           P�s Fixo                expr++   expr�
-            2           Pr� fixo e Un�rio       ++expr   �expr   +expr   -expr   !
+            Precedencia dos Operadores:
+            Ordem 	Tipo de Operador 	Precedencia
+            1           Po's Fixo                expr++   expr�
+            2           Pre fixo e Un�rio       ++expr   �expr   +expr   -expr   !
             3           Multiplicativo          *    /    %
             4           Aditivo                 +    �
             5           Relacional              >    >=    <=    <
             6           Igualdade               ==    !=
-            7           AND L�gico              &&
-            8           OR L�gico               ||
-            9           Atribui��o              =   +=   -=   *=   /=   %=
+            7           AND Lo'gico              &&
+            8           OR Lo'gico               ||
+            9           Atribuicao              =   +=   -=   *=   /=   %=
          */
         //======================================================================
         // ESTRUTURA WHILE
         //======================================================================
         /*
-            A estrutura while � utilizada quando a quantidade de repeti��es
-            necess�rias n�o for preciamente conhecida. Ex: quando voc� quer 
-            repetir algumas instru��es N vezes.
+            A estrutura while e' utilizada quando a quantidade de repeticoes
+            necessa'rias nao for preciamente conhecida. Ex: quando voce quer 
+            repetir algumas instrucoes N vezes.
          */
         //Exemplo de estrutura simples
         boolean desejaRepetir = true;
@@ -64,13 +64,13 @@ public class Main {
         byte idade;
 
         while (desejaRepetir = true) {
-            System.out.println("Digite o nome do usu�rio");
+            System.out.println("Digite o nome do usua'rio");
             nome = leitor.nextLine();
 
-            System.out.println("Digite a idade do usu�rio");
+            System.out.println("Digite a idade do usua'rio");
             idade = leitor.nextByte();
 
-            System.out.println(nome + " t�m " + idade + " anos!");
+            System.out.println(nome + " tem " + idade + " anos!");
 
             desejaRepetir = leitor.nextBoolean();
         }
@@ -79,32 +79,32 @@ public class Main {
         // ESTRUTURA FOR
         //======================================================================
         /* 
-            A estrutura de repeti��o for � indicada para as situa��es onde
-            previamente se sabe quantas repeti��es ser�o necess�rias. 
+            A estrutura de repeticao for e' indicada para as situacoes onde
+            previamente se sabe quantas repeticoes serao necessa'rias. 
         
-            Essa estrutura � composta por 3 partes:
-            1 - Cria��o da vari�vel de controle da estrutura
-            2 - Condi��o de parada
+            Essa estrutura e' composta por 3 partes:
+            1 - Criacao da varia'vel de controle da estrutura
+            2 - Condicao de parada
             3 - Incremento
         
-            Cada uma dessas partes � separada por um ";"
+            Cada uma dessas partes e' separada por um ";"
          */
         for (int i = 0; i < 10; i++) {
-            System.out.println("O valor de i �: " + i);
+            System.out.println("O valor de i e': " + i);
         }
 
         /*
-            Algumas coisas que voc� deve tormar cuidado quando trabalha com
-            estruturas de repeti��o � em garantir que a condi��o de parada
-            em algum momento seja atentida caso contr�rio sua estrutura de
-            repeti��o ficar� em um loop infinito
+            Algumas coisas que voce deve tormar cuidado quando trabalha com
+            estruturas de repeticao e' em garantir que a condicao de parada
+            em algum momento seja atentida caso contra'rio sua estrutura de
+            repeticao ficara' em um loop infinito
         
-            Outra coisa que voc� n�o deve fazer � criar vari�veis dentro de uma
-            estrutura de repeti��o. Caso voc� fa�a isso, a cada repeti��o da 
-            estrutura seu algoritmo estar� alocando mem�ria do computador e 
-            isso far� com que sua aplica��o tenha um alto consumo de mem�ria.
-            Caso voc� precise ler valores dentro da estrutura, crie as vari�veis
-            de leitura fora da estrutura repeti��o 
+            Outra coisa que voce nao deve fazer e' criar varia'veis dentro de uma
+            estrutura de repeticao. Caso voce faca isso, a cada repeticao da 
+            estrutura seu algoritmo estara' alocando memo'ria do computador e 
+            isso fara' com que sua aplicacao tenha um alto consumo de memo'ria.
+            Caso voce precise ler valores dentro da estrutura, crie as varia'veis
+            de leitura fora da estrutura repeticao 
          */
     }
 }
