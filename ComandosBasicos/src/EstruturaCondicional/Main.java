@@ -4,22 +4,22 @@ public class Main {
     
     public static void main(String[] args) {
        
-        //ESTRUTURAS DE SELE��O
+        //ESTRUTURAS DE SELECAO
         //======================================================================
         /*
-            Como voc� j� deve ter visto, estruturas de sele��o servem para
-            fazer desvios pelo c�digo, fazendo com que trechos de c�digo sejam
-            executados ou ignorados durante a a execu��o dependendo de uma 
-            condi��o previamente definida.
-            Em Java existem duas estruturas de sele��o:
+            Como voce ja deve ter visto, estruturas de selecao servem para
+            fazer desvios pelo co'digo, fazendo com que trechos de co'digo sejam
+            executados ou ignorados durante a a execucao dependendo de uma 
+            condicao previamente definida.
+            Em Java existem duas estruturas de selecao:
             
             1 - if (Correspondente ao "se" no portugol)
             2 - switch (Correspondente ao "caso" no portugol)
         
-            Em ambas estruturas � possivel utilizar os operadores relacionais e
-            l�gicos
+            Em ambas estruturas e' possivel utilizar os operadores relacionais e
+            lo'gicos
         
-            Os operadores relacionais existentes na linguagem s�o:
+            Os operadores relacionais existentes na linguagem sao:
             1 - Maior           (>) 
             2 - Maior ou igual  (>=)
             3 - Menor           (<)
@@ -27,22 +27,22 @@ public class Main {
             5 - Diferente       (!=)
             6 - Igual           (==)
         
-            Os operadores l�gicos existentes na linguagem s�o:
+            Os operadores lo'gicos existentes na linguagem sao:
             1 - Operador E      (&&)
             2 - Operador OU     (||)
-            3 - Operador N�O    (!)
+            3 - Operador NaO    (!)
         
-            Preced�ncia dos Operadores:
-            Ordem 	Tipo de Operador 	Preced�ncia
-            1           P�s Fixo                expr++   expr�
-            2           Pr� fixo e Un�rio       ++expr   �expr   +expr   -expr   !
+            Precedencia dos Operadores:
+            Ordem 	Tipo de Operador 	Precedencia
+            1           Po's Fixo                expr++   expr�
+            2           Pre' fixo e Una'rio       ++expr   �expr   +expr   -expr   !
             3           Multiplicativo          *    /    %
             4           Aditivo                 +    �
             5           Relacional              >    >=    <=    <
             6           Igualdade               ==    !=
-            7           AND L�gico              &&
-            8           OR L�gico               ||
-            9           Atribui��o              =   +=   -=   *=   /=   %=
+            7           AND Lo'gico              &&
+            8           OR Lo'gico               ||
+            9           Atribuicao              =   +=   -=   *=   /=   %=
          */
         //======================================================================
         // ESTRUTURA IF
@@ -74,17 +74,17 @@ public class Main {
         // ESTRUTURA SWITCH
         //======================================================================
         /* 
-            A estrutura de sele��o switch testa o valor contido em uma vari�vel 
+            A estrutura de selecao switch testa o valor contido em uma varia'vel 
             e o compara com os valores fornecidos em cada caso, representados pela
-            palavra reservada case. Podemos ter quantos casos forem necess�rios
-            na estrutura, e quando um dos valores corresponder ao da vari�vel de
-            teste, todo o c�digo que est� dentro daquele bloco do caso ser� 
+            palavra reservada case. Podemos ter quantos casos forem necessa'rios
+            na estrutura, e quando um dos valores corresponder ao da varia'vel de
+            teste, todo o co'digo que esta' dentro daquele bloco do caso sera' 
             executado.
         
-            A v�riavel que ser� utilizada no controle da estrutura pode ser dos
-            tipos primitivos como: int, char, byte e tamb�m do tipo String (
-            n�o s�o permitidos tipos como float, double pois estes trabalham
-            com n�meros com casas decimais)
+            A va'riavel que sera' utilizada no controle da estrutura pode ser dos
+            tipos primitivos como: int, char, byte e tambe'm do tipo String (
+            nao sao permitidos tipos como float, double pois estes trabalham
+            com nu'meros com casas decimais)
         
          */
         int codigoProduto = 1;
