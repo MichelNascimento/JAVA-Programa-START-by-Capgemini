@@ -6,22 +6,22 @@ public class Main {
 
     public static void main(String[] args) {
 
-        // TIPOS DE VARI�VEIS
+        // TIPOS DE VARIA'VEIS
         //======================================================================
         /*
-            As v�riaveis podem ser divididas em dois tipos: Variaveis primitivas e n�o primitivas (refer�ncia)
+            As va'riaveis podem ser divididas em dois tipos: Variaveis primitivas e nao primitivas (referencia)
             
-            Vari�veis primitivas s�o aquelas que foram criadas com a linguagem 
-            de programa��o e servem para armazenar valores simples, como por 
-            exemplo um n�mero, um valor l�gico ou at� mesmo um caractere.
+            Varia'veis primitivas sao aquelas que foram criadas com a linguagem 
+            de programacao e servem para armazenar valores simples, como por 
+            exemplo um nu'mero, um valor lo'gico ou ate' mesmo um caractere.
         
-            J� as vari�veis n�o primitivas (refer�ncia) s�o aquelas que foram 
+            Ja' as varia'veis nao primitivas (referencia) sao aquelas que foram 
             criadas com o aprimoramento da linguagem. Elas servem para armazenar 
             valores mais complexos.
          */
         
         
-        //Exemplos de tipos de vari�veis primitivas
+        //Exemplos de tipos de varia''veis primitivas
         byte idade;
         short pontosAcumulados;
         int quantidadeUsuarios;
@@ -32,9 +32,9 @@ public class Main {
         
         
         /*  
-            Tipos, tamanhos e valores default das vari�veis primitivas:
+            Tipos, tamanhos e valores default das varia'veis primitivas:
         
-            Tipo 	Tamanho (bits) 	Faixa                                                           Valor Padr�o
+            Tipo 	Tamanho (bits) 	Faixa                                                           Valor Padrao
             byte 	8               -128 a 127                                                      0
             short 	16              -32.768 a 32.767                                                0
             int 	32              -231 a 231 � 1                                                  0
@@ -44,14 +44,14 @@ public class Main {
         */
         
         
-        //Exemplos de tipos vari�ries n�o primitivas
+        //Exemplos de tipos varia'ries nao primitivas
         String nome;
         Date dataNascimento;
         
         
         /*
-            Note que nas vari�veis primitivas o tipo inicia com uma letra min�scula,
-            j� nas vari�veis n�o primitivas inicia com uma letra maiuscula
+            Note que nas varia'veis primitivas o tipo inicia com uma letra minu'scula,
+            ja' nas varia'veis nao primitivas inicia com uma letra maiuscula
         */
         //======================================================================
         
@@ -59,12 +59,12 @@ public class Main {
         //OPERADORES
         //======================================================================
         /*
-            Java conta com 5 operadores aritm�ticos:
+            Java conta com 5 operadores aritme'ticos:
         
             Soma            (+)
-            Subtra��o       (-)
-            Multiplica��o   (*)
-            Divis�o         (/)
+            Subtracao       (-)
+            Multiplicacao   (*)
+            Divisao         (/)
             Resto           (%)
         */
         
@@ -72,15 +72,15 @@ public class Main {
         int pontosEquipeA = 10;
         int pontosEquipeB = 20;
         
-        //Exemplo de utiliza��o do operador da ADI��O
+        //Exemplo de utilizacao do operador da ADICAO
         int totalSoma = pontosEquipeA + pontosEquipeB;
-        //Exemplo de utiliza��o do operador da SUBTRA��O
+        //Exemplo de utilizacao do operador da SUBTRACAO
         int totalSubtracao = pontosEquipeA - pontosEquipeB;
-        //Exemplo de utiliza��o do operador da MULTIPLICA��O
+        //Exemplo de utilizacao do operador da MULTIPLICACAO
         int totalMultiplicacao = pontosEquipeA * pontosEquipeB;
-        //Exemplo de utiliza��o do operador da DIVIS�O
+        //Exemplo de utilizacao do operador da DIVISAO
         int totalDivisao = pontosEquipeA / pontosEquipeB;
-        //Exemplo de utiliza��o do operador de RESTO  
+        //Exemplo de utilizacao do operador de RESTO  
         int totalResto = pontosEquipeA % pontosEquipeB;
         //======================================================================
     }
